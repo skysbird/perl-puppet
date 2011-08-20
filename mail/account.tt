@@ -1,0 +1,25 @@
+<html>
+<body>
+Dear [% username %],<br/>
+<br/>
+Your Account as been created, look at the information below
+
+<h1 style="color:red"> Notice </h1>
+If you are sure you have account on the host, please ignore this email<br/>
+
+
+<h1>Account Infomation</h1>
+<table>
+<tr>
+    <td>host list</td><td>[% hostlist %]</td>
+</tr>
+<tr>
+    <td>username</td><td>[% username %]</td>
+</tr>
+<tr>
+    <td>password</td><td>[% password %]</td>
+<tr>
+</table>
+</body>
+</html>
+
