@@ -29,6 +29,10 @@ GetOptions(
 );
 use String::MkPasswd qw(mkpasswd);
 
+if (!$hostlist){
+	print "please provide at least one host\n";
+	exit(-1);
+}
 if ($adduser==1){
 	my @hostarray = split(/,/,$hostlist);
 	my $host;
